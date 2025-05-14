@@ -1,4 +1,6 @@
-﻿class Cola:
+﻿from utilidades import contar_elementos
+
+class Cola:
     def __init__(self):
         self.lista = []
 

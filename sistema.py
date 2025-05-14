@@ -1,4 +1,6 @@
-﻿def menu():
+﻿from paciente import Clinica, Farmacia
+
+def menu():
     clinica = Clinica()
     farmacia = Farmacia()
     salir = False
@@ -36,8 +38,5 @@
         else:
             print("Opción inválida. Intente nuevamente.")
 
-
-# ------------------------------
-# Ejecutar el programa
-# ------------------------------
+# Ejecutar
 menu()
